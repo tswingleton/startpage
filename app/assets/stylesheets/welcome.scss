@@ -1,0 +1,112 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+   font-family: Helvetica, Geneva, Arial, sans-serif;
+   font-size: small;
+   color: #FFFFFF;
+   background-image: url(1486693155414.jpeg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+a:link, a:active, a:visited {
+   color: #ffffff;
+}
+
+a:hover {	
+	color: #cccccc;
+	}
+
+p { 
+   color: #ffffff;
+   line-height: 150%;
+}
+
+div#container {
+   width: 700px;
+   margin: 0 auto;
+}
+
+div#header {
+   text-align: center;
+   padding-bottom: 5px;
+}
+
+div#content {
+   float: center;
+   width: 450px;
+   padding: 10px;
+}
+
+div#content h3 {
+   margin-top: 5px;
+}
+
+table, {
+   border: 1px solid white;
+   width: 90%;
+   tr:nth-child(even) {background-color: #696c70}
+
+}
+
+tr {
+  border: 1px solid black;
+  }
+
+td {
+  width: 70%;
+  }
+
+th { 
+  height: 50px;
+  text-align:left;
+  width: 70%;
+  border-bottom: 1px solid #ffffff;
+  }
+
+div#sidebar {
+   width: 200px;
+   margin-left: 480px;
+}
+
+wrapper {
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 700px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #4a4c4f;
+    opacity: 0.9;
+    /*-webkit-filter: blur(4px);
+    filter: blur(4px); */
+    }
+
+actions {
+  width: 400px;
+  margin:0 auto;
+}
+
+
+form {
+    font-family: open-sans;
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px 5px 5px 5px;
+}
+input {
+    font-family: open-sans;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    /* padding: 10px; */ 
+    width: 300px;
+    font-size: 18px;
+}

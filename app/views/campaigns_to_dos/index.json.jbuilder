@@ -1,0 +1,1 @@
+json.array! @campaigns_to_dos, partial: 'campaigns_to_dos/campaigns_to_do', as: :campaigns_to_do

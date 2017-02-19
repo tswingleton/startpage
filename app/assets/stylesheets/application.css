@@ -1,0 +1,104 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+   font-family: Helvetica, Geneva, Arial, sans-serif;
+   font-size: small;
+   color: #FFFFFF;
+   background-image: url(1486693155414.jpeg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+a:link, a:active, a:visited {
+   color: #ffffff;
+}
+
+a:hover {	
+	color: #cccccc;
+	}
+
+
+p { 
+   color: #ffffff;
+   line-height: 100%;
+}
+
+div#container {
+   width: 760px;
+   margin: 0 auto;
+}
+
+div#header {
+   text-align: center;
+   padding-bottom: 5px;
+}
+
+div#content {
+   float: center;
+   width: 450px;
+   padding: 10px;
+}
+
+div#content h3 {
+   margin-top: 5px;
+}
+
+table, {
+  text-align: center;
+   border: 1px solid white;
+   width: 90%;
+   tr:nth-child(even) {background-color: #696c70}
+
+}
+
+tr {
+	border: 1px solid black;
+	}
+
+td {
+	width: 70%;
+	}
+
+th { 
+	height: 50px;
+	text-align:left;
+	width: 70%;
+	border-bottom: 1px solid #ffffff;
+	}
+
+div#sidebar {
+   width: 200px;
+   margin-left: 480px;
+}
+
+wrapper {
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 700px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #4a4c4f;
+    opacity: 0.9;
+    /*-webkit-filter: blur(4px);
+    filter: blur(4px); */
+    }

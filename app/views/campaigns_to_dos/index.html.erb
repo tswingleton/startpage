@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+<wrapper>
+<h1>Campaigns</h1>
+
+<center><table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Due Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @campaigns_to_dos.each do |campaigns_to_do| %>
+      <tr>
+        <td><%= campaigns_to_do.Name %></td>
+        <td><%= campaigns_to_do.DueDate %></td>
+        <td><%= link_to 'Details', campaigns_to_do %></td>
+        <td><%= link_to 'Edit', edit_campaigns_to_do_path(campaigns_to_do) %></td>
+        <td><%= link_to 'Delete', campaigns_to_do, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table></center>
+
+<br>
+
+<%= link_to 'Home', welcome_index_path %> | <%= link_to 'New Campaign', new_campaigns_to_do_path %>
+<br>
+<br>
+</wrapper>

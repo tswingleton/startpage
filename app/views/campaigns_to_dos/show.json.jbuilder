@@ -1,0 +1,1 @@
+json.partial! "campaigns_to_dos/campaigns_to_do", campaigns_to_do: @campaigns_to_do

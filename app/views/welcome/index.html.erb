@@ -1,0 +1,12 @@
+<wrapper><br>
+<center><h1>Hello, Travis.</h1>
+<h2><%= Time.now.strftime("The current time is %l:%M %p %Z.") %></h2><%= Time.now.strftime("%A, %B %d, %Y") %>
+<form class="" action="http://www.google.com/search" method="get">
+            <input type="hidden" name="q" value="">
+            <input type="text" name="q" alt="search" placeholder="Google">
+        </form>
+<h3>
+<%= link_to 'Notes', notes_path %>  |  <%= link_to 'Campaigns', campaigns_to_dos_path %> | <%= link_to 'Comms Calendar', 'https://docs.google.com/spreadsheets/d/1LfDnJF3ziFAZ-g06Ke7H_N4hYFLAaFX4eNWyi27qLWE/edit#gid=1014788619' %> | <%= link_to 'Webmail', 'https://login.microsoftonline.com/'%> | <%= link_to 'Teamwork', 'https://www.teamwork.com/' %> 
+</center>
+<br><br>
+</wrapper>

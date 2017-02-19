@@ -1,0 +1,43 @@
+<%= form_for(campaigns_to_do) do |f| %>
+  <% if campaigns_to_do.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(campaigns_to_do.errors.count, "error") %> prohibited this campaigns_to_do from being saved:</h2>
+
+      <ul>
+      <% campaigns_to_do.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Name %>
+    <%= f.text_field :Name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Notes %>
+    <%= f.text_field :Notes %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Marketo, 'Marketo Campaign Link' %>
+    <%= f.text_field :Marketo %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Salesforce, 'Salesforce Campaign ID' %>
+    <%= f.text_field :Salesforce %>
+  </div>
+
+  <div class="field">
+    <%= f.label :DueDate, 'Due Date' %>
+    <%= f.text_field :DueDate %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Submit" %>
+  </div>
+
+<% end %>

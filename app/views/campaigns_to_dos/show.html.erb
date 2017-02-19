@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+<wrapper>
+<p>
+  <strong>Name:</strong>
+  <%= @campaigns_to_do.Name %>
+</p>
+
+<p>
+  <strong>Marketo Link:</strong>
+  <%= @campaigns_to_do.Marketo %>
+</p>
+
+<p>
+  <strong>Salesforce Campaign ID:</strong>
+  <%= @campaigns_to_do.Salesforce %>
+</p>
+
+<p>
+  <strong>Due Date:</strong>
+  <%= @campaigns_to_do.DueDate %>
+</p>
+
+<p>
+  <strong>Notes:<br><br></strong>
+  <%= @campaigns_to_do.Notes %>
+</p>
+
+<%= link_to 'Edit', edit_campaigns_to_do_path(@campaigns_to_do) %> |
+<%= link_to 'Back', campaigns_to_dos_path %>
+</wrapper>
