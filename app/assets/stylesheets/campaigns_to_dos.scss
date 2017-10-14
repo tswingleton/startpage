@@ -2,3 +2,33 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+label {
+    font-family: ;
+}
+
+input#campaigns_to_do_Name {
+    background-color: #bbb9bb;
+    width:90%;
+}
+
+input#campaigns_to_do_Notes {
+    background-color: #bbb9bb;
+    width:90%;
+    height: 200px;
+}
+
+input#campaigns_to_do_Marketo {
+    background-color: #bbb9bb;
+    width:90%;
+}
+
+input#campaigns_to_do_Salesforce {
+    background-color: #bbb9bb;
+    width:90%;
+}
+
+
+input#campaigns_to_do_DueDate {
+    background-color: #bbb9bb;
+    width:90%;
+}

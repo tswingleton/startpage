@@ -2,3 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+input#note_Title {
+    background-color: #bbb9bb;
+    width:90%;
+}
+
+input#note_Notes {
+    background-color: #bbb9bb;
+    width:90%;
+    height: 200px;
+}
