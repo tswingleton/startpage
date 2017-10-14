@@ -98,8 +98,8 @@ wrapper {
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
-    background-color: #000000;
-    opacity: 0.9;
+    background-color: #443e46;
+    opacity: 0.8;
     /*-webkit-filter: blur(4px);
     filter: blur(4px); */
     }
@@ -111,4 +111,3 @@ form {
     margin: 0 auto;
     padding: 25px 5px 5px 5px;
 }
-
