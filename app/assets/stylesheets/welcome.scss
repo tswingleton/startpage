@@ -63,22 +63,6 @@ div#sidebar {
    margin-left: 480px;
 }
 
-wrapper {
-    position: absolute;
-    margin-left: 50%;
-    margin-right: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    min-width: 700px;
-    text-align: center;
-    background-attachment: fixed;
-    background-size: cover;
-    overflow: hidden;
-    background-color: #4a4c4f;
-    opacity: 0.9;
-    /*-webkit-filter: blur(4px);
-    filter: blur(4px); */
-    }
 
 actions {
   width: 60%;
