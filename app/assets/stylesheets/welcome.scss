@@ -98,10 +98,13 @@ actions {
 
 form {
     font-family: open-sans;
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     padding: 25px 5px 5px 5px;
 }
+
+
+
 input {
     font-family: open-sans;
     background-color: #FFFFFF;
@@ -109,4 +112,16 @@ input {
     /* padding: 10px; */ 
     width: 300px;
     font-size: 18px;
+}
+
+form#newform {
+    width: 500px;
+}
+
+div#newform {
+    width: 500px;
+}
+
+newform {
+    width: 500px;
 }

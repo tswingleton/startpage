@@ -63,8 +63,10 @@ table, {
    border: 1px solid white;
    width: 90%;
    tr:nth-child(even) {background-color: #696c70}
-
+    
 }
+
+
 
 tr {
 	border: 1px solid black;
@@ -78,10 +80,10 @@ th {
 	height: 50px;
 	text-align:left;
 	width: 70%;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px, solid #ffffff;
 	}
 
-div#sidebar {
+#sidebar {
    width: 200px;
    margin-left: 480px;
 }
