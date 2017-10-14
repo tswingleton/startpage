@@ -2,16 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-   font-family: Helvetica, Geneva, Arial, sans-serif;
-   font-size: small;
-   color: #FFFFFF;
-   background-image: url(https://i.imgur.com/etG2CRQ.jpg);
-   background-size: cover;
-   background-position: center center;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-}
 
 a:link, a:active, a:visited {
    color: #ffffff;
@@ -96,35 +86,3 @@ actions {
 }
 
 
-form {
-    font-family: open-sans;
-    width: 60%;
-    margin: 0 auto;
-    padding: 25px 5px 5px 5px;
-}
-
-
-input {
-    font-family: open-sans;
-    background-color: #FFFFFF;
-    border: 2px solid #FFFFFF;
-    /* padding: 10px; */ 
-    width: 60%;
-    font-size: 18px;
-}
-
-form#new_note {
-    width: 60%;
-}
-
-div#new_note {
-    width: 60%;
-}
-
-#new_note {
-    width: 60%;
-}
-
-note#newnote {
-    width: 60%;
-}
