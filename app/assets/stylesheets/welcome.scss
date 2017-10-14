@@ -104,7 +104,6 @@ form {
 }
 
 
-
 input {
     font-family: open-sans;
     background-color: #FFFFFF;
@@ -114,14 +113,18 @@ input {
     font-size: 18px;
 }
 
-form#newform {
+form#new_note {
     width: 60%;
 }
 
-div#newform {
+div#new_note {
     width: 60%;
 }
 
-newform {
+#new_note {
+    width: 60%;
+}
+
+note#newnote {
     width: 60%;
 }
