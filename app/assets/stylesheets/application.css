@@ -13,9 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ 
+ 
 body {
-   font-size: small;
-   color: #FFFFFF;
    background-image: url(https://i.imgur.com/XTjGAJS.jpg);
    background-position: center center;
    background-attachment: fixed;
@@ -25,6 +25,9 @@ body {
    -o-background-size: cover; 
    background-size: cover;
    font-family: Lato;
+   font-size: small;
+   color: #FFFFFF;
+   background-color: #000000;
 }
 
 a:link, a:active, a:visited {
@@ -90,7 +93,7 @@ th {
 }
 
 wrapper {
-    position: absolute;
+    position: relative;
     margin-left: 50%;
     margin-right: 50%;
     top: 50%;
