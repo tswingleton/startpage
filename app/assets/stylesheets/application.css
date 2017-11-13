@@ -27,7 +27,7 @@ body {
    font-family: Lato;
    font-size: small;
    color: #FFFFFF;
-   background-color: #000000;
+   background-color: #031111;
 }
 
 a:link, a:active, a:visited {
@@ -93,7 +93,7 @@ th {
 }
 
 wrapper {
-    position: relative;
+    position: absolute;
     margin-left: 50%;
     margin-right: 50%;
     top: 50%;
