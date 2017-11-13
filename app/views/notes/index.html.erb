@@ -15,7 +15,7 @@
     <% @notes.each do |note| %>
       <tr>
         <td><%= note.Title %></td>
-        <td><%= link_to 'View', note %></td>
+        <td><%= link_to 'Details', note %></td>
         <td><%= link_to 'Edit', edit_note_path(note) %></td>
         <td><%= link_to 'Delete', note, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
