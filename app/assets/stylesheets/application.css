@@ -17,12 +17,12 @@
 body {
    font-size: small;
    color: #FFFFFF;
-   background-image: url(https://i.imgur.com/R1DRwsH.gif);
+   background-image: url(https://i.imgur.com/NDsgOeI.png);
    background-size: cover;
    background-position: center center;
    background-attachment: fixed;
    background-repeat: no-repeat;
-   font-family: open-sans;
+   font-family: Lato;
 }
 
 a:link, a:active, a:visited {
