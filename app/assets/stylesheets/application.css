@@ -13,8 +13,9 @@
  *= require_tree .
  *= require_self
  */
- 
-html {
+body {
+   font-size: small;
+   color: #FFFFFF;
    background-image: url(https://i.imgur.com/XTjGAJS.jpg);
    background-position: center center;
    background-attachment: fixed;
@@ -23,16 +24,6 @@ html {
    -moz-background-size: cover;
    -o-background-size: cover; 
    background-size: cover;
-} 
- 
-body {
-   font-size: small;
-   color: #FFFFFF;
-   /* background-image: url(https://i.imgur.com/XTjGAJS.jpg);
-   background-size: cover;
-   background-position: center center;
-   background-attachment: fixed;
-   background-repeat: no-repeat; */
    font-family: Lato;
 }
 
