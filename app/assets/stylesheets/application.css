@@ -20,8 +20,7 @@ html {
    background-position: center center;
    background-attachment: fixed;
    background-repeat: no-repeat;
-   width:100%;
-   height: auto;
+  background-size: 100%;
 } 
  
 body {
