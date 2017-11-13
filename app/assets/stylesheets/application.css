@@ -23,6 +23,8 @@ body {
    background-attachment: fixed;
    background-repeat: no-repeat;
    font-family: Lato;
+   width:100%;
+   height: auto;
 }
 
 a:link, a:active, a:visited {
