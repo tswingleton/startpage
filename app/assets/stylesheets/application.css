@@ -14,17 +14,25 @@
  *= require_self
  */
  
-body {
-   font-size: small;
-   color: #FFFFFF;
+html {
    background-image: url(https://i.imgur.com/XTjGAJS.jpg);
    background-size: cover;
    background-position: center center;
    background-attachment: fixed;
    background-repeat: no-repeat;
-   font-family: Lato;
    width:100%;
    height: auto;
+} 
+ 
+body {
+   font-size: small;
+   color: #FFFFFF;
+   /* background-image: url(https://i.imgur.com/XTjGAJS.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-repeat: no-repeat; */
+   font-family: Lato;
 }
 
 a:link, a:active, a:visited {
