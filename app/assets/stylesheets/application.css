@@ -27,12 +27,12 @@ body {
 }
 
 wrapper {
-    position: relative;
-    background-color: #3D586B;
-    opacity: 0.8;
-    font-family: Lato;
-    justify-content: center;
-    }
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 
 a:link, a:active, a:visited {
