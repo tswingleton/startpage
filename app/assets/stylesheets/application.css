@@ -26,16 +26,6 @@ body {
    background-color: #3D586B;
 }
 
-wrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background: white;
-  opacity: .8;
-}
-
 
 a:link, a:active, a:visited {
    color: #ffffff;
